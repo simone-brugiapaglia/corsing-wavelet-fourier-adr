@@ -8,7 +8,7 @@ In order to run this code, you need the following toolboxes:
 
 1. Matlab Symbolic toolbox
 
-2. OMP-Box (v10 or higher)
+2. OMP-Box (v10 or later)
    You can download this package from 
    http://www.cs.technion.ac.il/~ronrubin/software.html
 
