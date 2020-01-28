@@ -54,7 +54,7 @@ for i_eta = 1:2
     
     %% Visualize stiffness matrix
     figure
-    imagesc(abs(B)); 
+    imagesc(1:N, qq, abs(B)); 
     pbaspect([1 1 1])
     hc = colorbar;
     colormap parula
