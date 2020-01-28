@@ -91,7 +91,7 @@ for i_eta = 1:2
         fprintf('%d ',m);        
         for i_test = 1:N_runs            
             %% CORSING
-            tau = nurandi(N,m,pdist,cdist); % randomized test selection
+            tau = nurandi(R,m,pdist,cdist); % randomized test selection
             D = diag(1./sqrt(m*pdist(tau))); % Diagonal precodnitioner
             A = B(tau,:); % stiffness matrix
             ff = gg(tau); % load vector          
